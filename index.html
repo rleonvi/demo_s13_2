@@ -1,0 +1,66 @@
+<html>
+	<head> 
+		<title>Ejemplo ventana modal</title>
+		<meta charset = "UTF-8"/>
+		<!--Etiqueta para enlazar los estilos css a mi pagina html -->
+		<link rel = "stylesheet" href = "estilos.css">
+		<script src="funciones.js"> </script>
+	</head>
+	
+	<body>
+		<!--Creamos la barra de navegación-->
+		<nav> 
+			<div id="contenedor_logo"> 
+				<img src="logo.png" width="100%" height="100%">
+			</div>
+			<ul>
+				<li><a href="">Inicio |</a></li>
+				<li><a href="">Nuestros productos |</a></li>
+				<li><a href="">¿Quienes somos?</a></li>
+				<li><a href="">Registrate</a></li>
+				<li><a href="">Iniciar sesión</a></li>
+			</ul>
+			
+		</nav>
+		
+		
+		<!--Contenedor ventana modal-->
+		<div id="contenedor_ventana_modal">
+			<div id="barra_modal" >
+				Menu modal terminos y condiciones 
+				<input type="button" value="X" id="btnCerrar" onclick="ocultar_ventana()">
+			</div>
+			
+			<div id="contenido_modal">
+				<p> 
+					A common form of Lorem ipsum reads:
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+					dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					<br> <br>
+					A common form of Lorem ipsum reads:
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+					dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					
+					<br> <br>
+					A common form of Lorem ipsum reads:
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+					dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaec
+				</p>
+			</div>
+		</div>
+		<!--Sección para boton -->
+		<div id="barra_opcion"> 
+			¡Clic aquí para conocer los terminos y condiciones al publicar tu producto! <input type="button" value="Conocer más" Onclick="mostrar_ventana()">
+		</div>
+		
+		<!--Publicación ejemplo -->
+		<div id="contenedor_punlicaciones">
+			<img src="productos.png" width="100%" height="100%">
+		</div>
+	</body>
+	
+	
+</html>

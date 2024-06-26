@@ -1,0 +1,82 @@
+nav
+{
+	background-color:#64B5F6;
+	font-size:20;
+	width:100%;
+	height:100px;
+}
+
+#contenedor_logo
+{
+	width:5%;
+	height:55px;
+	float:left;
+	padding:20px;
+}
+li
+{
+	
+	float:left;
+	list-style:none;
+	margin-left:25px;
+	margin-top:35px;
+}
+a
+{
+	color:white;
+	font-weight:bold;
+}
+
+#barra_opcion
+{
+	width:100%;
+	background-color:#1E88E5;
+	color:white;
+}
+
+/*Propiedades ventana modal*/
+#contenedor_ventana_modal
+{
+	width:50%;
+	position:fixed;
+	left:25%;
+	background-color:white;
+	
+	display:none;
+}
+
+/*Barra d eopciones modal*/
+#barra_modal
+{
+	width:100%;
+	height:25px;
+	background-color:blue;
+	color:white;
+	text-align:center;
+	font-size:20px;
+}
+
+#btnCerrar
+{
+	float:right;
+	height:100%;
+	background-color:transparent;
+	border:none;
+	color:white;
+}
+
+#btnCerrar:Hover
+{
+	background-color:red;
+}
+
+#btnCerrar:Active 
+{
+	background-color:#D50000;
+}
+
+#contenido_modal
+{
+	padding:20px;
+	text-align:justify;
+}
